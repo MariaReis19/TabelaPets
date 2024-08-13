@@ -1,7 +1,9 @@
+drop database;
+
 create database dbPets CHARACTER SET utf8 COLLATE utf8_general_ci;
 
 use dbPets;
-
+;
 create table tbPets(
 codPet int not null auto_increment,
 nomePet varchar(100),
